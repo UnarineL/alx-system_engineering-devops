@@ -1,2 +1,2 @@
 #!/bin/bash
-echo allrwxrwxrwx 1 root root 7 8  __ls__
+echo 1rwxrwxrwx 1 root 7 __ls__
