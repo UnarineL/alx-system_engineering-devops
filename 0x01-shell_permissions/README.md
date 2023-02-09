@@ -1,1 +1,1 @@
-Each script execute an instruction
+Execute Permissions on scripts
