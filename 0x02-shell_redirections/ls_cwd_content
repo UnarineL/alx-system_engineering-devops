@@ -1,0 +1,21 @@
+total 76
+drwxr-xr-x 2 root root  4096 Feb 13 07:58 .
+drwxr-xr-x 6 root root   136 Feb 13 04:58 ..
+-rw-r--r-- 1 root root    19 Feb 13 05:25 1-confused_smiley
+-rw------- 1 root root 12288 Feb 13 04:59 .1-confused_smiley.swp
+-rwxr--r-- 1 root root    28 Feb 13 05:29 2-hellofile
+-rwxr--r-- 1 root root    39 Feb 13 05:36 3-twofiles
+-rwxr--r-- 1 root root    35 Feb 13 05:44 4-lastlines
+-rwxr--r-- 1 root root    35 Feb 13 05:48 5-firstlines
+-rw-r--r-- 1 root root     0 Feb 13 06:16 6-thid_line
+-rwxr--r-- 1 root root    36 Feb 13 06:38 6-third_line
+-rw-r--r-- 1 root root     0 Feb 13 06:16 6-thirdline
+-rwxr--r-- 1 root root    82 Feb 13 07:44 7-file
+-rwxr--r-- 1 root root    36 Feb 13 07:57 8-cwd_state
+-rw-r--r-- 1 root root    41 Feb 13 07:32 \*\\'"Best
+-rw-r--r-- 1 root root   152 Feb 13 06:26 iacta
+-rw-r--r-- 1 root root   962 Feb 13 07:55 longlist
+-rw-r--r-- 1 root root     0 Feb 13 07:58 lw_cwd_content
+-rw-r--r-- 1 root root    27 Feb 13 05:31 README.md
+-rw-r--r-- 1 root root     0 Feb 13 06:06 text.txt
+-rw-r--r-- 1 root root 12288 Feb 13 06:08 .text.txt.swp
