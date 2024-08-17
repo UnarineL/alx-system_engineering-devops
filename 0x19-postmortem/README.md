@@ -31,7 +31,7 @@ Resolution: the typo was corrected using a 'sed' command to replace 'phpp' woth 
 ~implement strciter code to review practices to catch typos and erros inconfigarion files before they are deployed.
 ~Enhance monitoring and alerting to detect application-level errors more quickly.
 
-##Tasks
+## Tasks
 
 ~Review and update configuration file templates to ensure correct syntax.
 ~Add automated tests for configuration files to detect issues before deployment
