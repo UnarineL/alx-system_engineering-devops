@@ -50,6 +50,6 @@ Resolution: the typo was corrected using a 'sed' command to replace 'phpp' woth 
 
 ~Add automated tests for configuration files to detect issues before deployment
 
-~imprvoe logging and monitorig to provide more detailed insights into application errors
+~improve logging and monitorig to provide more detailed insights into application errors
 
 ~Conduct a postmortem review for any future incidents to identify and address potential weakness in the system.
