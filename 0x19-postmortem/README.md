@@ -35,16 +35,21 @@ Root Cause: A typo in the wordpress configuration file ('wp-settings.php') was
 ## Root Cause and Resolution
 
 Root Cause: A typo in the wordpress configuration file ('wp-settings.php') led to a 	php error Apche to return a '500 Internal Server Error'. The error was due to 	incorrect reference to 'phpp', which was not recognized by php.
+
 Resolution: the typo was corrected using a 'sed' command to replace 'phpp' woth 'php'. Apache was then resterted to ensure the changed took effect. This resolved the issue and the web application was restored to naorma operation.
 
 ## Improvements
 
 ~implement strciter code to review practices to catch typos and erros inconfigarion files before they are deployed.
+
 ~Enhance monitoring and alerting to detect application-level errors more quickly.
 
 ## Tasks
 
 ~Review and update configuration file templates to ensure correct syntax.
+
 ~Add automated tests for configuration files to detect issues before deployment
+
 ~imprvoe logging and monitorig to provide more detailed insights into application errors
+
 ~Conduct a postmortem review for any future incidents to identify and address potential weakness in the system.
