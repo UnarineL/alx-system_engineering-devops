@@ -1,5 +1,6 @@
-exec {'fix-apache-error':
-	command => '/usr/bin/chown www-data:www-data /var/www/html',
-	path => ['/bin', '/usr/bin'],
-	unless => '/usr/bin/test -w /var/www/html',
+$file_to_edit = '/var/www/html/wp-settings.php'
+
+exec {'replace_line':
+	command => "sed -i 's/phpp/php/g' ${file_to_edit}",
+	path => ['/bin', '/usr/bin']
 }
