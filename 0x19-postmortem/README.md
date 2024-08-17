@@ -3,22 +3,33 @@
 ## Issue Summary
 
 Duration: August 16,2024, 08:00 - Augist 16, 2024, 12:00 GMT
+
 Impact: The Apache web server was returning a '500 Internal Server Error',
 	affecting 100% of users accessing the web application.
+ 
 Root Cause: A typo in the wordpress configuration file ('wp-settings.php') was
 	causing a fatal error in PHP, resulting in Apache returning a '500 internal 	server Error'.
 
 ## Timeline
 
 08:00: Issue detected by a routine check on the web application, returning a '500 	Internal Servor Error'.
+
 08:05: Issue detected began with a focus on server logs and Apache error logs.
+
 08:10: Investigation began with a focus on server logs and Apche error logs.
+
 08:20: Initial assumption was a server misconfiguration or hardware issue.
+
 08:30: Narrowed down investigation to application code; found no recent changes in 	apache configuration.
+
 08:45: Discovered the issue was due to a typo in the 'wp-settings.php' file ('phpp'	instead of 'php').
+
 09:00: Applied a fix using a 'sed' command to replace 'phpp' with 'php'.
+
 09:15: restarted Apache to apply the fix.
+
 09:30: Verified the application was back online and functional by perfoming tests.
+
 12:00: Issue confirmed resolved; no further incidents reported.
 
 ## Root Cause and Resolution
